@@ -1,4 +1,5 @@
 /******************************************************************************
+Josephus problem
 
 To seek revenge on Midgard, Loki devises a plan to torture the humans by making
  them take part in one of his silly games. He makes N people sit in a circle. 

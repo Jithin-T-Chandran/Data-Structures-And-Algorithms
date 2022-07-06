@@ -7,3 +7,14 @@ static int Factorial(int N){
         return(N*Factorial(N-1));
     }
 }
+
+
+//without recursion
+ public static int factorial(int n){
+       
+       int temp =1;
+       for (int i=1;i<=n;i++){
+           temp*=i;
+       }
+       return temp;
+    }

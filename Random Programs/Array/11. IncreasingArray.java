@@ -40,3 +40,11 @@ class Main {
 		System.out.println("YES");
 	}
 }
+/******************************************************************************
+Ignore the first element
+basically whatever the first element, I can replace it to 1.
+second element, index = 1,devisor = 2;
+divisor >=next element, divisor >= a[i+1] print NO
+a[i] % divisor == 0 && divisor <= a[i];
+divisor++;
+*******************************************************************************/
