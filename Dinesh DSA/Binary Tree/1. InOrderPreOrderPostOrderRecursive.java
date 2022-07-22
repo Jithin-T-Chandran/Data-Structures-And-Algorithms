@@ -7,7 +7,7 @@
 
 
 
-//Pre-Order Traverse of a Binary tree  (Recursive)
+//(Recursive)
 
 public class Main
 {
