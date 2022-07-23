@@ -28,3 +28,5 @@ public class Main
 	 System.out.println(Arrays.toString(arr));
 	}
 }
+
+// output: 8,1,2,1,3,0,0

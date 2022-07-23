@@ -30,3 +30,7 @@ public class Main
 		System.out.println(maxElement(arr));
 	}
 }
+
+/*      output: -4
+                67
+*/
