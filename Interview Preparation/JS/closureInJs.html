@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .selected{
+        background-color: yellow;
+    }
+</style>
+</head>
+<body>
+    <ui>
+        <h1 id="count"></h1>
+        <li class="item">Product 1</li>
+        <li class="item">Product 2</li>
+        <li class="item">Product 3</li>
+        <li class="item">Product 4</li>
+        <li class="item">Product 5</li>
+        <li class="item">Product 6</li>
+    
+    </ui>
+
+    <script>
+        let products = document.getElementsByClassName("item");
+        
+        for (let i = 0; i < products.length; i++) {
+            products[i].addEventListener('click',function(){
+                if(this.className('selected') < 0){
+                    this.className += 'selected';
+                }else{
+                    this.className = this.className.replace('selected','');
+                }
+            })
+        }
+    </script>
+</body>
+</html>
