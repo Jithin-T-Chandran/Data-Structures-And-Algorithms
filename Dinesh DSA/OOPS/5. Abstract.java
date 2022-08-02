@@ -16,8 +16,13 @@
 i. Abstract class: is a restricted class that cannot be used to create objects 
    (to access it, it must be inherited from another class).
    
-ii.Abstract method: can only be used in an abstract class, and it does not have
+ii.Abstract method: 
+   *its declared but not defined
+  can only be used in an abstract class, and it does not have
    a body. The body is provided by the subclass (inherited from).
+
+   *Abstract methods are declared in abstract classed.
+   *Cannot create object of abstract class( only inheritance works here) 
 *******************************************************************************/
 
 //Example of Inner class and Outer class
@@ -72,3 +77,95 @@ public class Main
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+//Another example for abstract class and abstract method
+
+abstract class Mahesh{ //abstract class
+    void call(){
+        System.out.println("calling");
+    }
+    abstract void move(); //abstract methods
+    abstract void dance();
+    abstract void cook();
+}
+abstract class Ramesh extends Mahesh{
+    void move(){
+        System.out.println("moving");
+    }
+}
+class Suresh extends Ramesh{            //concrete class
+
+    void dance(){
+        System.out.println("dancing");
+    }
+    void cook(){
+        System.out.println("cooking");
+    }
+}
+public class Main
+{
+	public static void main(String[] args) {
+		Mahesh ob = new Suresh();  //Cant instantiate abstract class
+		ob.call();
+		ob.move();
+		ob.dance();
+		ob.cook();
+	}
+}
+
+
+
+
+
+//Example 3
+abstract class Phone{
+    abstract void showConfig();
+}
+class Iphone extends Phone{
+    void showConfig(){
+        System.out.println("6 GB IOS");
+    }
+}
+class Android extends Phone{
+    void showConfig(){
+        System.out.println("8 GB Pie");
+    }
+}
+
+public class Main
+{
+    //Instead of creating two methods with 2 different parametres, 
+    //Abstract class Phone is used for Iphone & Android
+  
+    public static void show(Phone ob){
+        ob.showConfig();
+    }
+  
+  
+   /* public static void show(Iphone ob){
+        ob.showConfig();
+    }
+    public static void show(Android ob){
+        ob.showConfig();
+    }*/
+    
+	public static void main(String[] args) {
+	Iphone ob1 = new Iphone();
+	Android ob2 = new Android();
+	show(ob1);
+	show(ob2);
+	
+	
+	}
+}
