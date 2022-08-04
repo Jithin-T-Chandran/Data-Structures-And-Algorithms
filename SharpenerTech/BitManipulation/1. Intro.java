@@ -63,7 +63,7 @@ public class Main
 //Time Complexity: O(n)
 
 /******************************************************************************
-                                  Node:  set means 1 and unset means 0;
+                                  Note:  set means 1 and unset means 0;
 RIGHT SHIFT
 ----------
 10101
