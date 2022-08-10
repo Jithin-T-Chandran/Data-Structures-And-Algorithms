@@ -17,6 +17,11 @@ Types of Trees
 Depth First Search
 ------------------
 searches like it move deapth(1 level deep) either in LHS or RHS then it comes up
+Types of DFS traversals,
+i. Inorder
+ii. Preorder
+iii. Postorder
+
 
 Depth First Search
 ------------------

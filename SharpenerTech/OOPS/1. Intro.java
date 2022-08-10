@@ -10,7 +10,7 @@ Class:
 
 Inheritance: It can avoid copy pasting the code in one class to another.So in 
   future updates should reflect in every classes. Its very difficult if we copy paste.
- Types of onheritance: 
+ Types of Inheritance: 
   1. Multilevel.
   2. Multiple.(Two parents for 1 child, Diamond problem rises here)
   
