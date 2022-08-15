@@ -75,6 +75,17 @@ illegal Shadowing
                 console.log(a)
         }
 
-
+Closure: A function bind along with its lexical envionment together is call closure.
+      eg:
+      
+      function x(){
+        var a = 20;
+        function y(){
+          console.log(a)
+        }
+        return y;
+      }
+      var z = x();
+      z();
 
 */
