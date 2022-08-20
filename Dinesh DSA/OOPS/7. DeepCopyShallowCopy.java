@@ -18,7 +18,7 @@ public class Main
 		System.out.println("Shallow copy"+ob1.i+","+ob1.j);
 		
 		//Deep copy
-		A ob2 = new A(); //New oject and memory is created but i and j value is 0;
+		A ob2 = new A(); //New object and memory is created but i and j value is 0;
 		System.out.println("Deep copy"+ob2.i+","+ob2.j);
 		
 		//cloning
