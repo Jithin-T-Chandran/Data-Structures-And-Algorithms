@@ -18,16 +18,18 @@
 
 
 
-*Lexical Enviornment: Its a local memory along with Lexical Enviornment of  its parent.
+*Lexical Enviornment: Whenever an execution context is created, lexical enviornment is created
+ Its a local memory along with Lexical Enviornment of  its parent.
+ (where its lexically or physically)
  its works like hierarchy, if function A contains a function B inside of it. if B access a 
  variable which is not present in B, it moves to Lexical Enviornment of  its parent. 
  That is A. if thats is not present it moves to Lexical  Environment of A's parent ans so on.
  finally at global no parent so it points to null.
  This process of finding is call SCOPE CHAINING.
 
-
-
- *Temporal Dead Zone: its a time between since when let variable hoisted
+(FOR ANY HOISTING QUESTIONS,)
+let and const variables are hoisted in the temperal dead zone for the time being.
+ *Temporal Dead Zone: its a time between since when let variable declares
   and till it initialises a value
         eg:     console.log(a);
                 let a = 10;
@@ -35,6 +37,8 @@
 
             o/p:   Uncaught ReferenceError: Cannot access 'a' before initialization
 
+var variables are attached to the global object.but let and const are stored in different m/y space
+than global.
 
  3 type of errors
  i.   Syntax error
@@ -65,6 +69,10 @@
             o/p:  Uncaught TypeError: Assignment to constant variable.
 
 
+
+*let and const are block scoped and var is global scoped.
+var scope is inside function.
+
 *Shadowing
 
         var a = 100
@@ -91,5 +99,42 @@ Closure: A function bind along with its lexical envionment together is call clos
       }
       var z = x();
       z();
+
+
+setTimeout() closure:
+---------------------
+function x(){
+        for(let i=1;i<=5;i++){   //if var is used instead of let,unusual ressult will print.
+                setTimeout(function(){
+                        console.log(i);
+                },i*1000);
+        }
+        console.log("Namaste Javascript");  
+}
+x();
+
+if you want to use var itself,
+
+function x(){
+        for(let i=1;i<=5;i++){   //if var is used instead of let,unusual ressult will print.
+           function close(i){
+                setTimeout(function(){
+                        console.log(i);
+                },i*1000);
+           }
+           close(i);
+        }
+        console.log("Namaste Javascript");  
+}
+x();
+
+
+
+
+
+
+
+
+
 
 */

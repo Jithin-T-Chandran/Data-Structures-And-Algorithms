@@ -1,4 +1,8 @@
 /*
+JavaScript is a loosely typed language. It doesn't attaches 
+    its variable to any specific datatype
+
+
     Document Object Model: Tree of nodes created by browser
     Js is used to read/write/manipulate DOM
 1.  console.dir(document)  //shows alll properties and methods attached through document object.
@@ -23,7 +27,7 @@ SELECTORS
     element.style.borderBottom = 'solid 3px #000'
 
 2.  GETELEMENTBYCLASSNAME
-    var items = document.getElementByclassName("list-group-item"); //consider this is ul classname
+    var items = document.getElementsByclassName("list-group-item"); //consider this is ul classname
     console.log(items)
     console.log(items[1])
     items[1].textContent = 'hello';

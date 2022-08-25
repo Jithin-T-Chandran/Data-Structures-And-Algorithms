@@ -28,7 +28,7 @@ import Protypes from 'prop-types'; //used to define datatype in react to avaoid 
     desc:"No desc"
 }
 
-3. For passing edfault prop type
+3. For passing default prop type
 <Filename>.defaultProps={
     task:PropTypes.string,
     desc:PropTypes.string,
