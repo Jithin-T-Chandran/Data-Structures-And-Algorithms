@@ -25,3 +25,10 @@ Context is also touted as an easier, lighter approach to state management using 
 Contex API disadvantages
     Complex setup/ Management for big project
     Performance (Not optimised for high frequency state changes)
+    
+
+Core Redux concepts
+ i) Reducer function (not useReducer)
+ ii) Central Data State
+ iii) Components
+
