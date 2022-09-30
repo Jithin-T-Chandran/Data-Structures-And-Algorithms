@@ -1,0 +1,23 @@
+Redux:Third party react library.     Redux toolkit is usesd.
+Redux: State management system for cross component or appwide state ( Like Context API does)
+State split into 3 kinds
+ i) Local state 
+ ( State belongs to single component like listening user i/p via i/p field,
+ show more functionality,etc managed by useState and useReducer)
+
+ ii) Cross Component state
+ ( State that effects multiple components, open/close state of model overlay,
+  Requires props chain or props drilling)
+ 
+ iii) App wide state
+ ( State that effects entire app,that's most of the components,eg user auth status
+  Requires props chain or props drilling)
+
+
+Prop drilling refers to the process of sending props from a higher-level component to a lower-level component. 
+To pass the props down from the topmost component, we must do something like this: 
+However, prop drilling can become an issue in itself because of its repetitive code.
+The React Context API is a way for a React app to effectively produce global variables that can be passed around. 
+This is the alternative to "prop drilling" or moving props from grandparent to child to parent, and so on. 
+Context is also touted as an easier, lighter approach to state management using Redux.
+
