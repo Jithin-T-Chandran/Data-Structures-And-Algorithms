@@ -1,5 +1,5 @@
 /*
-  JS is a sunchronous single-threaded language
+  JS is a synchronous single-threaded language
   Everything in javascript happens inside an Execution Context
 * As soon as whole JS program run,
   Global Execution Context is created, consistes of 
@@ -87,7 +87,7 @@ illegal Shadowing
                 console.log(a)
         }
 
-Closure: A function bind along with its lexical envionment together is call closure.
+Closure: A function bind along with its lexical envionment together is called closure.
       eg:
       
       function x(){
@@ -104,7 +104,7 @@ Closure: A function bind along with its lexical envionment together is call clos
 setTimeout() closure:
 ---------------------
 function x(){
-        for(let i=1;i<=5;i++){   //if var is used instead of let,unusual ressult will print.
+        for(let i=1;i<=5;i++){   //if var is used instead of let,unusual result will print.
                 setTimeout(function(){
                         console.log(i);
                 },i*1000);

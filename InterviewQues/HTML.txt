@@ -1,0 +1,50 @@
+https://www.youtube.com/watch?v=-vo0HzNHL3U
+https://www.interviewbit.com/html-interview-questions/
+
+1)Are the HTML tags and elements the same thing?
+2)What are tags and attributes in HTML?
+3)What are void elements in HTML?
+4)What are different types of lists in HTML? Explain the difference between each one of them
+5)What is the ‘class’ attribute in HTML?What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+6)How to optimize website assets loading?
+7)What is the difference between <strong>, <b> tags and <em>, <i> tags?
+8)What is the significance of <head> and <body> tag in HTML?
+9)Can we display a web page inside a web page or Is nesting of webpages possible?
+10) What are inline elements? What are block level elements? What is the difference between them?
+11)In how many ways can we position an HTML element? What are the permissible values of the position attribute?Explain the exact difference each one of them in your own words.
+
+
+
+1)What is the difference between position absolute and relative
+2)In how many ways you can display HTML elements? 
+3) What is the difference between “display: none” and “visibility: hidden”, when used as attributes to the HTML element.
+4)How to specify the link in HTML '<a>' tag and explain the target attribute? What do the different target statuses in <a> tag  mean?
+5)In how many ways can we specify the CSS styles for the HTML element?
+6) Difference between link tag <link> and anchor tag <a>?
+7)When to use scripts in the head and when to use scripts in the body?
+8) What are forms and how to create forms in HTML? What are the default behaviours of form that you know?
+9)How to handle events in HTML?
+10)What are some of the advantages of HTML5 over its previous versions?
+11)How can we include audio or video in a webpage?
+12)What are Semantic Elements?Explain each one of them. WHere would you use them?
+13)What are the significant goals of the HTML5 specification?
+
+
+
+https://www.edureka.co/blog/interview-questions/top-50-html-interview-questions-and-answers/
+https://www.javatpoint.com/html-interview-questions
+
+1) Explain the concept of web storage in HTML5. What are the different types of storage and when to use what?
+2)What is new about the relationship between the <header> and <h1> tags in HTML5?
+3) What are the New tags in Media Elements in HTML5?
+4)Why do you think the addition of drag-and-drop functionality in HTML5 is important? How will you make an image draggable in HTML5?
+5)What are Web Workers?
+6)What are different approaches to make an image responsive?Explain tit in your own words(This is the way to make images phone ready)
+7)What is a manifest file in HTML5?
+8) Explain The Key Differences Between LocalStorage And SessionStorage Objects.
+9) When should we use cookies?
+10) What is specificity in css?(Important Interview question - watch this)
+11) How many types of CSS can be included in HTML?
+12)What is a style sheet?
+13)Explain the layout of HTML? Where does the header go, where does nav go , where does footer go etc
+

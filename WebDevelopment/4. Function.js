@@ -26,7 +26,7 @@
     }
     b();
 
-// Difference between parameters and expressions
+// Difference between parameters and arguments
         function a(para1,para2){     //This are the parameters
             console.log(para1 + para2)
         }

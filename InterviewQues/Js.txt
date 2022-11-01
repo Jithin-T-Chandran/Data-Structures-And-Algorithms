@@ -1,0 +1,219 @@
+Please don't google for answers. Try by yourself. Its ok if you get it wrong.
+
+
+
+Question 1: What is difference between let and const? What is the difference between let and var?
+
+
+
+Question 2 : what is output of this function
+
+function sample (){
+
+for (let i=0; i<=5;i++){
+
+setTimeout (() => Console.log(i), 1000 );
+
+}
+
+}
+
+
+
+
+
+Question 3 : what is output of this
+
+
+
+SetTimeout(()=>{
+
+Console.log("a");
+
+},2000)
+
+Console.log("b") ;
+
+
+
+Question 4: how can you print a first and b later with. You are not allowed to use any extra setTimeouts?
+
+
+
+Write your answer in the editor below.
+
+
+
+Question 6 : what is process.nextTick ?
+
+
+
+Question 7: how can you check if a variable is an array?
+
+
+
+Question 8 : Do You know Sql ? What is difference between truncate and delete?
+
+
+
+Question 9: Do you have any about indexing the table ?
+Question 1: What is output of this (refer this if you dont know about setimmediate - https://www.educative.io/edpresso/what-is-setimmediate-in-nodejs)
+
+
+
+SetImmidiate (()=>{
+
+Console.log("first")
+
+})
+
+SetTimeout (()=>{
+
+Console.log("second")
+
+})
+
+Console.log("third");
+
+
+
+Question 2 : Difference between SetImmidiate and Process.nexttick
+
+
+
+Question 3: What is difference between promise and call back
+
+
+
+Question 4 : What is output ?
+
+
+
+ Let a=New Promise((resolve,reject)=>{
+
+reject ({ msg: 'Something went wrong' ))
+
+})
+
+a.then(ressolve=>{console.log{ressolve}}).catch(err=>{console.log(err.msg) })
+
+
+
+Question 5 : what is output ?
+
+
+
+await delay(6000)
+
+SetTimeout (()=>{
+
+console.log("first")
+
+},10000)
+
+console.log("second");
+
+
+
+Question 6: What is function definition ?
+
+Explain these answers in details with examples
+
+Difference between let, var and const
+Hosting, callbacks, ES6 features
+Difference between array.map and array.filter
+How to find the length of an object
+What are promises? 3 states of promises.
+Why do we use promises over callbacks and why use await and async?
+
+1)When do we use async await ?
+
+
+
+2)What is the reason behind writing await inside async function only?
+
+
+
+3)What will the output of this be?
+
+
+
+async fun fun1(){
+
+console.log('a');
+
+console.log('b');
+
+await setTimeout(() => console.log('c'), 1000)
+
+await setTimeout(() => console.log('d'), 0)
+
+console.log('e');
+
+}
+
+fun1()
+
+
+
+Explain the reason behind the answer?
+
+
+
+4) can you solve thee above problem, so that we get proper outputs ? Hint await should works properly.
+
+
+
+5) What are callback? What is Callback hell? Can you give an example of callback hell?
+
+
+
+6) How are promises more superior than callbacks? How do promises solve the issue of callback hell?
+
+1) What were the 10 new features that were introduced in ES6? Explain each one of them in detail? You will be asked questions on each example you give?
+
+2) Call, Apply, Bind. When to use what ? Can you give an example?
+
+3) What are different ways to store data in browser? Explain each one of them and when should we use what?
+
+4)What are generator function in javascript ? How are they different from normal function?
+
+5)Difference between arr.foreach, array.map and array.filter? Take example input array and explain the output which you will get
+
+6)What is the use of arr.reduce? Explain with an example.
+1) what is the difference between == And ===
+
+2) What is the difference between null and undefined?
+
+3) what will the output (true or false) of the following be?Explain why?
+
+console.log(null === undefined)
+
+console.log(null == undefined)
+
+4)What is event bubbling and event capturing (Event Propagation)? what is the difference between them? Can you give a code example to explain how you can use event bubbling ?
+
+5)What is function currying? Can you create a curried function and explain?
+
+6) What is an IIFE (Immediately Invoked function expression)? Can you give an example?
+
+Explain the different ways of creating object in javascript? Explain all the 3 ways.
+What are Object Prototype Methods
+What is object chaining in javascript? Can you create functions to explain object chaining better?
+What is the main difference between fat arrow function and normal function?
+Can you give an example to explain how "this" works differenetly with fat arrow function and normal function?
+What are the advantages of Axios vs other competitors( like fetch, http, got etc)? Why is axios so widely used?
+What are closures? Explain with an example? (Favourite interview question)
+
+How to iterate inside and object and print all the values inside it without the keys? Give a code example?
+What is NaN property in JavaScript?
+Explain pass by value and pass by reference? Give code example of how you would pass by reference in javascript?
+Explain “this” keyword?
+What is memoization in javascript? Can you give a code example implementing the same?
+What is the data type of variables in JavaScript?
+ What are escape characters? Why are they used? Give code example.
+What is break and continue statements? How are they different?
+What is the typeof an array in javascript?
+What are anonymous functions in js? Give an example?
+What's the difference between event.preventDefault() and event.stopPropagation() methods in JavaScript?
+What are higher order function ? Explain with code example. Watch this video to understand better. (Favourite Interview Question)
